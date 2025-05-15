@@ -1,6 +1,6 @@
 # INGRESO DE VARIABLES MEDIANTE CONSOLA
 nombre = input("Ingrese su nombre: ")
-edad = input("Ingrese su edad:")
+edad = input("Ingrese su edad: ")
 
 # OPERACIÓN PARA SUMAR 20 AÑOS A LA EDAD INGRESADA
 total_edad = int(edad) + 20 
