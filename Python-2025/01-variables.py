@@ -29,7 +29,3 @@ nombre = input("Ingrese su nombre:\n")
 print(f"Hola mi nombre es : {nombre}")
 
 print(nombre)
-
-# 08 - 
-
-#FORMAT: PARA REDONDEAR NÚMEROS
