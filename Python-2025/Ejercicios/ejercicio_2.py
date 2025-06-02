@@ -19,6 +19,8 @@ suma_mix = complejo + flotante
 
 producto_mixto = complejo * entero
 
+mod_potencia_compleja = abs(potencia_com)
+
 # ENTREGA DE RESULTADOS
 print(f'El resultado de la potencia {complejo} ^ {entero} es {potencia_com:.3f}')
 
@@ -26,4 +28,4 @@ print(f'El resultado de la suma {complejo} + {flotante} es {suma_mix} ')
 
 print(f'El resultado de la multiplicación {complejo} * {entero} es {producto_mixto}')
 
-print(f'El modulo de la potencia {potencia_com} es {abs(potencia_com)}')
+print(f'El modulo de la potencia {potencia_com:.3f} es {mod_potencia_compleja:.3f}')
