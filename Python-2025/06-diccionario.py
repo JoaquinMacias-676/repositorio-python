@@ -1,4 +1,4 @@
-# CREANDO L¿DICCIONARIO 
+# CREANDO DICCIONARIO 
 paciente = {
     'nombre': 'Carlos',
     'apellido': 'Santana',
