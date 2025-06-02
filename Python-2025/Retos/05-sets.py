@@ -1,5 +1,5 @@
 # CREANDO SETS 
-colores = {'Azul', 'Rojo', 'Azul', 'Verde'} # NO TIENEN ORDEN
+colores = {'Azul', 'Rojo', 'Azul', 'Verde'} # NO TIENEN ORDEN, NO TIENEN DATOS REPETIDOS
 colorcitos = {'Azul', 'Naranjo'}
 '''print(colores[0]) AL NO TENER ORDEN, NO SE PUEDE DETERMINAR LA POSICIÓN'''
 
