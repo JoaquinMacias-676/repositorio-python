@@ -7,6 +7,11 @@ D. Crear una variable booleana llamada umbral, que entregue un True si el valor_
 E. Imprimir el nombre del producto, la cantidad, el valor total y el estado umbral en un solo
 print() formateado.'''
 
-producto_1 = input('Ingrese el nombre del producto: ')
-precio_1 = input('Ingrese el precio del producto' )
-stock = input('Ingrese la cantidad de stock de la cual se dispone: ')
+producto = input('Ingrese el nombre del producto: ')
+precio = int(input('Ingrese el precio del producto: ' ))
+stock = int(input('Ingrese la cantidad de stock de la cual se dispone: '))
+
+valor_total = precio * stock
+umbral = int(valor_total) > 100000
+
+print(f'El nombre del producto es "{producto}", con una cantidad de {stock} y dando como valor total ${valor_total:.2f} CLP y con un estado umbral = {umbral}')
