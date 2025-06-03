@@ -13,6 +13,9 @@ temperatura_k = temperatura_c + 274.15
 temperatura_f = (temperatura_c*9/5) + 32
 
 # ENTREGA DE RESULTADOS
+
+print(f'La temperatura en grados Celsius es {round(temperatura_c, 2)}° C')
+
 print(f'La temperatura en grados Fahrenheit es {round(temperatura_f, 2)}° F')
 
 print(f'La temperatura en grados Kelvin es {round(temperatura_k, 2)}° K')
