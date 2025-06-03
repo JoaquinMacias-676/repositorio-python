@@ -7,14 +7,14 @@ D. Emplear otro método para imprimir la longitud de la frase original.'''
 
 frase = str(input('Ingrese una frase, que tendrá como máximo 30 caracteres: '))[0:30]
 
-mayor = frase.upper(3)
-menor = frase.lower(1)
+mayor = frase.upper()
+menor = frase.lower()
 
 cantidad_a = frase.count('a')
 cantidad_A = frase.count('A')
 
-print(frase)
+print(f'Hay un total de {cantidad_a} "a"')
 
-print('a')
+print(f'Hay un total de {cantidad_A} "A"')
 
-print('A')
+print(f'Longitud de la frase: {len(frase)}')
