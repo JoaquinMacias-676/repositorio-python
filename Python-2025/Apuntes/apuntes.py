@@ -7,3 +7,6 @@
 '''Lista = []
    Tuplas = ()
    Sets = {}'''
+
+# == no es lo mismo que = | El primero es para hacer una igualdad, mientras que el segundo es para dar un valor a algo
+# != : no es igual
