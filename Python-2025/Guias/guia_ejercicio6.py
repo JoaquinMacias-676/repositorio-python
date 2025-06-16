@@ -9,5 +9,3 @@ for hora in range(24):
             # Mostrar la hora actual
             print(f"{hora:02d}:{minutos:02d}:{segundos:02d}")
 
-
-### CREO QUE NO ESTA BIEN :c
