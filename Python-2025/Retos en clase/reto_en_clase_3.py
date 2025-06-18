@@ -1,20 +1,28 @@
 # Inicializando la suma en 0
 sum = 0
+numeros = []
 
 # Inicializando a en 500
 a = 500
 
-print('Los números del 500 al 100, son: ')
+print('\nLos números del 500 al 100, decreciendo de 3 en 3 son: \n')
 
 # Sumatoria del 500 al 100, decreciendo en 3
 while a >= 100:
     print(a)
     a -= 3 
     sum += a + a
+    numeros.append(a)
 
-# Sumada de todos los números
-print(f'La suma de todos los números da como resultado: {sum}')
+# Cantidad de números
+cantidad = len(numeros)
 
-lista = [a]
+# El promedio entre todos los números
+promedio = sum / cantidad
 
-print(f'La cantidad de numeros que se suman es: {lista}')
+# Impresión de lo solicitado
+
+print('\n================ RESULTADOS ================')
+print(f'\nLa suma de todos los números da como resultado: {sum}')
+print(f'La cantidad de numeros que se suman es: {cantidad}')
+print(f'El promedio es: {promedio}\n')
