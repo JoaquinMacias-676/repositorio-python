@@ -8,7 +8,7 @@ print(lista1)
 frutas = ()
 
 # LISTA DE SOLO NÚMEROS
-n = [1, 2, 3, 4, 5] # DECLARANDO CON CERCHETES
+n = [1, 2, 3, 4, 5] # DECLARANDO CON CORCHETES
 
 # LISTA DE SOLO STRINGS - UTILIZANDO LA FUNCIÓN LIST
 ramos = list(['Programación', 'Química', 'POO', 'Programación']) # DECLARANDO CON LA FUNCIÓN LIST
