@@ -95,7 +95,7 @@ print(f'- La posición de la precipitación más alta en la lista es la número:
 print(f'\nLa segunda versión del diccionario es:\n\n{cod_postal}\n')
 
 # Lista de tuplas
-lista_tuplas = cod_postal.items()
+lista_tuplas = list(cod_postal.items())
 
 # Imprimiendo lista de tuplas
 print(f'La lista de tuplas con las claves y valores del diccionario es: \n\n{lista_tuplas}\n')
