@@ -1,17 +1,4 @@
-'''Tres vendedores de una tienda de ropa deportiva registran sus ventas diarias durante 5
-días. Los vendedores obtienen un bono por cierta cantidad de ventas realizadas durante
-la semana:
-Venta semanal total superior a $1.500.000 (Bono de un 20 % del sueldo base)
-Venta semanal total superior a $1.000.000 (Bono de un 10 % del sueldo base)
-Venta semanal total superior a $500.000 (Bono de un 5 % del sueldo base)
-Ademas considerar: Sueldo Base en Chile 2025 es de $529.000
-Se solicita:
-a) Crea un diccionario donde la clave sea el nombre del vendedor y el valor otra estructura que guarde las ventas diarias (Puede ser una lista o tupla)
-b) Calcula el total de las ventas semanales de cada vendedor y su bono si le corresponde.
-c) Obtener el promedio de ventas semanales de cada vendedor.
-d) Imprime un reporte con el total del sueldo a pagar por cada vendedor.
-Los nombres de los vendedores y los valores de las ventas deben estar instanciado en
-codigo (Hardcodeado).'''
+# Ejercicio 3
 
 # Lista de ventas de los vendedores
 lista_juan = [150000, 200000, 300000, 220000, 180000]
@@ -25,6 +12,12 @@ sueldo_base = 529000
 sum_listajuan = sum(lista_juan)
 sum_listasergio = sum(lista_sergio)
 sum_listaroberto = sum(lista_roberto)
+
+# Promedio de ventas
+
+pro_juan = sum_listajuan / len(lista_juan)
+pro_sergio = sum_listasergio / len(lista_sergio)
+pro_roberto = sum_listaroberto / len(lista_roberto)
 
 # Diccionario de los vendedores
 tienda = {

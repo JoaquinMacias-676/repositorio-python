@@ -1,5 +1,4 @@
-'''Construir un programa que calcule e imprima la sumatoria:
-S = 500 + 456 + 510 + 454 + 520 + 452 + ... + 800'''
+# Ejercicio 2
 
 # Inicializar la sumatoria en 0
 s = 0
@@ -15,4 +14,4 @@ while a <= 800:
     b -= 2
 
 # Impresión del resultado
-print(f'La sumatoria es: {s}')
+print(f'\nLa sumatoria es: {s}\n')
