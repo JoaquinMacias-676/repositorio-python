@@ -9,8 +9,11 @@ boleano_resumen = len(resumen) <= 50
 # CONTADOR DE VECES QUE APARECE "e"
 num_e = resumen.count('e')
 
-# RESUMEN CON COMAS
+# RESUMEN EN UNA LISTA CON COMAS
 comas = resumen.split()
+
+# RESUMEN SEPARADO EN COMAS
+resumen_comas = ', '.join(comas)
 
 # IMPRESIÓN DE SI EL RESUMEN CUMPLE CON LOS LÍMITES
 print(f'\n¿El resumen cumple con el límite?: {boleano_resumen}')
@@ -30,4 +33,4 @@ print(f'Número de veces que aparece la vocal e: {num_e}')
 # INTENTO DE IMPRESIÓN
 print(f'\nMostrar los primeros 15 caracteres: {resumen[:15]}')
 print(f'\nMostrar los últimos 15 caracteres: {resumen[-15:]}')
-print(f'\nResumen con sus palabras unidas con coma: {comas}\n')
+print(f'\nResumen con sus palabras unidas con coma: {resumen_comas}\n')
