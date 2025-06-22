@@ -8,4 +8,3 @@ for hora in range(24):
         for segundos in range(60):
             # Mostrar la hora actual
             print(f"{hora:02d}:{minutos:02d}:{segundos:02d}")
-

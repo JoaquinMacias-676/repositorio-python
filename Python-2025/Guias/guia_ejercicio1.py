@@ -20,4 +20,3 @@ try:
 
 except ValueError:
     print("Error: El texto no puede estar vacío. Intentelo nuevamente.")
-

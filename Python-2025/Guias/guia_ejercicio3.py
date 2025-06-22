@@ -66,3 +66,4 @@ elif sum_listaroberto >= 1000000 and sum_listaroberto < 1500000:
 elif sum_listaroberto >= 1500000:
     sueldo_r20 = sueldo_base + (sueldo_base * 20/100)
     print(f'|Roberto cuenta con un bono del 20%, su sueldo a pagar es de ${int(sueldo_r20)} CLP|')
+    

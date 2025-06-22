@@ -1,19 +1,22 @@
-'''Desarrollar un algoritmo que permita devolver la siguiente propiedad descubierta por
-Nicomaco de Gerasa:
-Sumando el primer impar, se obtiene el primer cubo.
-Sumando los dos siguientes impares, se obtiene el segundo cubo
-Sumando los tres siguientes, se obtiene el tercer cubo, y así sucesivamente.
-Ejemplo:
-1
-3 = 1 = 1
-2
-3 = 3 + 5 = 8
-3
-3 = 7 + 9 + 11 = 27
-4
-3 = 13 + 15 + 17 + 19 = 64
-Imprimir por pantalla, los primeros n cubos, considerando el valor de n obtenido desde
-teclado.'''
+# Ejercicio 4
 
-def cubo_nicomaco(n):
-    impar = 1
+# Pedir al usuario el valor de n
+n = int(input("Ingrese el valor de n: "))
+
+# Inicializamos el primer número impar
+impar = 1
+
+# Bucle para calcular los primeros n cubos
+for i in range(1, n + 1):
+    suma = 0
+    sumas = []
+
+    # Se suman los siguientes i impares
+    for _ in range(i):
+        suma += impar
+        sumas.append(impar)
+        impar += 2
+
+# Resultado
+suma_texto = ' + '.join(str(num) for num in sumas)
+print(f"{n}^3 = {suma_texto} = {suma}")

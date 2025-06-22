@@ -1,4 +1,4 @@
-'''Determinar el factorial de un numero n'''
+# Ejercicio 7
 
 # Lista en la que guardar los predecesores del número ingresado, junto con el mismo número
 predecesores = []
