@@ -7,3 +7,5 @@ El usuario intenta adivinar el número, y el programa le dice si es “muy bajo�
 Termina cuando lo adivina.
 
 Usa while, random, y condicionales.'''
+
+# Hacer más tarde, ya que es necesario usar el modulo "random"
